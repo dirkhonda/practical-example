@@ -1,0 +1,256 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 225584  9472 ?        Ss   Oct29   0:02 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    Oct29   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   Oct29   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Oct29   0:02 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    Oct29   1:10 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    Oct29   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Oct29   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Oct29   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Oct29   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    Oct29   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    Oct29   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    Oct29   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    Oct29   0:02 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    Oct29   0:00 [kdevtmpfs]
+root        20  0.0  0.0      0     0 ?        I<   Oct29   0:00 [netns]
+root        21  0.0  0.0      0     0 ?        S    Oct29   0:00 [rcu_tasks_kthre]
+root        22  0.0  0.0      0     0 ?        S    Oct29   0:00 [kauditd]
+root        25  0.0  0.0      0     0 ?        S    Oct29   0:00 [khungtaskd]
+root        26  0.0  0.0      0     0 ?        S    Oct29   0:00 [oom_reaper]
+root        27  0.0  0.0      0     0 ?        I<   Oct29   0:00 [writeback]
+root        28  0.0  0.0      0     0 ?        S    Oct29   0:00 [kcompactd0]
+root        29  0.0  0.0      0     0 ?        SN   Oct29   0:00 [ksmd]
+root        30  0.0  0.0      0     0 ?        SN   Oct29   0:00 [khugepaged]
+root        31  0.0  0.0      0     0 ?        I<   Oct29   0:00 [crypto]
+root        32  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kintegrityd]
+root        33  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kblockd]
+root        34  0.0  0.0      0     0 ?        I<   Oct29   0:00 [ata_sff]
+root        35  0.0  0.0      0     0 ?        I<   Oct29   0:00 [md]
+root        36  0.0  0.0      0     0 ?        I<   Oct29   0:00 [edac-poller]
+root        37  0.0  0.0      0     0 ?        I<   Oct29   0:00 [devfreq_wq]
+root        38  0.0  0.0      0     0 ?        I<   Oct29   0:00 [watchdogd]
+root        41  0.0  0.0      0     0 ?        S    Oct29   0:00 [kswapd0]
+root        43  0.0  0.0      0     0 ?        S    Oct29   0:00 [ecryptfs-kthrea]
+root        85  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kthrotld]
+root        86  0.0  0.0      0     0 ?        I<   Oct29   0:00 [acpi_thermal_pm]
+root        87  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_0]
+root        88  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_0]
+root        89  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_1]
+root        90  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_1]
+root        96  0.0  0.0      0     0 ?        I<   Oct29   0:00 [ipv6_addrconf]
+root       105  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kstrp]
+root       122  0.0  0.0      0     0 ?        I<   Oct29   0:00 [charger_manager]
+root       166  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_2]
+root       167  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_2]
+root       168  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_3]
+root       169  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_3]
+root       170  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_4]
+root       171  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_4]
+root       172  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_5]
+root       174  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_5]
+root       175  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_6]
+root       176  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_6]
+root       177  0.0  0.0      0     0 ?        S    Oct29   0:00 [scsi_eh_7]
+root       178  0.0  0.0      0     0 ?        I<   Oct29   0:00 [scsi_tmf_7]
+root       198  0.0  0.0      0     0 ?        I<   Oct29   0:01 [kworker/1:1H]
+root       201  0.0  0.0      0     0 ?        I<   Oct29   0:02 [kworker/0:1H]
+root       303  0.0  0.0      0     0 ?        S    Oct29   0:04 [jbd2/sda1-8]
+root       304  0.0  0.0      0     0 ?        I<   Oct29   0:00 [ext4-rsv-conver]
+root       349  0.0  0.2 117000 36872 ?        S<s  Oct29   0:00 /lib/systemd/systemd-journald
+root       375  0.0  0.0  97708  1724 ?        Ss   Oct29   0:00 /sbin/lvmetad -f
+root       377  0.0  0.0  34364  4384 ?        Ss   Oct29   0:00 /lib/systemd/systemd-udevd
+root       381  0.0  0.0      0     0 ?        S<   Oct29   0:00 [loop0]
+root       390  0.0  0.0      0     0 ?        S<   Oct29   0:00 [loop1]
+root       401  0.0  0.0      0     0 ?        S<   Oct29   0:00 [loop2]
+root       413  0.0  0.0      0     0 ?        S<   Oct29   0:00 [loop3]
+systemd+   466  0.0  0.0  71200  6616 ?        Ss   Oct29   0:02 /lib/systemd/systemd-resolved
+systemd+   467  0.0  0.0 146112  3272 ?        Ssl  Oct29   0:00 /lib/systemd/systemd-timesyncd
+root       508  0.0  0.0 287628  7088 ?        Ssl  Oct29   0:01 /usr/lib/accountsservice/accounts-daemon
+avahi      516  0.0  0.0  47256  3236 ?        Ss   Oct29   0:49 avahi-daemon: running [mint.local]
+root       519  0.0  0.0   4552   784 ?        Ss   Oct29   0:00 /usr/sbin/acpid
+root       528  0.0  0.0 434328  9476 ?        Ssl  Oct29   0:00 /usr/sbin/ModemManager --filter-policy=strict
+avahi      531  0.0  0.0  47076   344 ?        S    Oct29   0:00 avahi-daemon: chroot helper
+root       532  0.0  0.0 502916 10404 ?        Ssl  Oct29   0:00 /usr/lib/udisks2/udisksd
+message+   545  0.1  0.0  51500  5856 ?        Ss   Oct29   2:35 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       583  0.0  0.0  45228  5336 ?        Ss   Oct29   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       584  0.0  0.0  70712  6220 ?        Ss   Oct29   0:00 /lib/systemd/systemd-logind
+syslog     586  0.0  0.0 263036  4228 ?        Ssl  Oct29   0:00 /usr/sbin/rsyslogd -n
+root       587  0.0  0.1 558612 16760 ?        Ssl  Oct29   0:01 /usr/sbin/NetworkManager --no-daemon
+root       590  0.0  0.0  31320  3180 ?        Ss   Oct29   0:00 /usr/sbin/cron -f
+root       601  0.0  0.1 934672 24428 ?        Ssl  Oct29   0:02 /usr/lib/snapd/snapd
+root       606  0.0  0.1 170484 17180 ?        Ssl  Oct29   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root       616  0.0  0.0 110480  3568 ?        Ssl  Oct29   0:02 /usr/sbin/irqbalance --foreground
+root       675  0.0  0.0 296788 10388 ?        Ssl  Oct29   0:19 /usr/lib/policykit-1/polkitd --no-debug
+colord     676  0.0  0.1 317772 14028 ?        Ssl  Oct29   0:00 /usr/lib/colord/colord
+kernoops   692  0.0  0.0  56940   416 ?        Ss   Oct29   0:00 /usr/sbin/kerneloops --test
+kernoops   700  0.0  0.0  56940   416 ?        Ss   Oct29   0:00 /usr/sbin/kerneloops
+root       778  0.0  0.0 313996  1556 ?        Ssl  Oct29   0:13 /usr/bin/prltoolsd -p /var/run/prltoolsd.pid
+root       786  0.0  0.0  25992  6196 ?        S    Oct29   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-enp0s5.pid -lf /var/lib/NetworkManager/dhclient-5f5b2a10-5eea-3bd3-bfe4-f6890c8ebe95-enp0s5.lease -cf /var/lib/NetworkManager/dhclient-enp0s5.conf enp0s5
+root       930  0.0  0.0 364228  6804 ?        Ssl  Oct29   0:00 /usr/sbin/lightdm
+root       944  0.0  0.0 165776  3836 ?        Sl   Oct29   0:19 prlshprint
+root       945  0.0  0.0  18308  1916 ?        S    Oct29   0:00 prltimesync
+root       946  0.0  0.0 290120  7104 ?        Sl   Oct29   0:00 prlusmd
+root       968  0.0  0.0  16180  1912 tty1     Ss+  Oct29   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root       971  2.2  6.4 1232288 828460 tty7   Rsl+ Oct29  32:50 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1558  0.0  0.0 315208  8616 ?        Ssl  Oct29   0:00 /usr/lib/upower/upowerd
+root      1641  0.0  0.0 268868  7468 ?        Sl   Oct29   0:00 lightdm --session-child 12 19
+root      1677  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kworker/u65:1]
+root      1680  0.0  0.0  36488  4592 ?        Ss   Oct29   0:00 /usr/lib/bluetooth/bluetoothd
+root      1681  0.0  0.0      0     0 ?        I<   Oct29   0:00 [kworker/u65:2]
+root      1695  0.0  0.0      0     0 ?        I    09:51   0:00 [kworker/1:1]
+dhonda    1830  0.0  0.5 694188 65680 ?        Sl   Oct29   0:00 xed /home/dhonda/source/repos/data_services/localstorage/dataservices-bucket-log/allmaar-listingimage_incremental-1572398390277.log
+root      1928  0.0  0.0      0     0 ?        I    09:52   0:00 [kworker/0:0]
+dhonda    2346  0.0  0.0  76856  7964 ?        Ss   Oct29   0:00 /lib/systemd/systemd --user
+dhonda    2347  0.0  0.0 214440  2932 ?        S    Oct29   0:00 (sd-pam)
+dhonda    2363  0.0  0.0 428736  8208 ?        SLl  Oct29   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+dhonda    2366  0.0  0.1 477424 24852 ?        Ssl  Oct29   0:00 cinnamon-session --session cinnamon
+dhonda    2369  0.2  1.9 24146780 253784 ?     Sl   Oct29   2:39 /usr/lib/slack/slack --type=renderer --autoplay-policy=no-user-gesture-required --force-color-profile=srgb --field-trial-handle=15891770864833459728,13431226101428467847,131072 --disable-features=LayoutNG,SpareRendererForSitePerProcess --lang=en-US --standard-schemes=slack-resources,slack-sounds,slack-webapp-dev --secure-schemes=slack-resources,slack-sounds,slack-webapp-dev --bypasscsp-schemes=slack-resources,slack-sounds,slack-webapp-dev --cors-schemes=slack-resources,slack-sounds,slack-webapp-dev --fetch-schemes=slack-resources,slack-sounds,slack-webapp-dev --service-worker-schemes=slack-resources,slack-sounds,slack-webapp-dev --app-path=/usr/lib/slack/resources/app.asar --no-sandbox --no-zygote --preload=/usr/lib/slack/resources/app.asar/dist/ssb-interop.bundle.js --background-color=#FFFFFF --num-raster-threads=1 --service-request-channel-token=8341851282352671724 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101 --enable-node-leakage-in-renderers {"preloadEnvironment":{"resourcePath":"/usr/lib/slack/resources/app.asar","isSonic":true,"appVersion":"4.1.1","linux":{"os":"Linux Mint 19 Tara","name":"19","release":"tara","codename":"","desktopEnvironment":"X-Cinnamon"},"sessionId":"MTBiZDcwODQtMDYyMy01ZGVmLTk0ZjktZWU3YWIyZWIwZmExXzE1NzIzNjcyMjI0Mzg=","teamId":"app","windowType":"main"},"crashReporterOpts":{"productName":"Slack","companyName":"Slack Technologies","uploadToServer":true,"submitURL":"https://slack.com/apps/breakpad?instanceUid=10bd7084-0623-5def-94f9-ee7ab2eb0fa1","extra":{"instanceUid":"10bd7084-0623-5def-94f9-ee7ab2eb0fa1","sessionId":"MTBiZDcwODQtMDYyMy01ZGVmLTk0ZjktZWU3YWIyZWIwZmExXzE1NzIzNjcyMjI0Mzg="}},"perfTimer":{"mainPid":3120,"BOOT":[215,420513418],"numTeamsAtLaunch":0,"SHELL":[215,791971363],"APP_READY":[215,799491984],"APP_CREATED":[215,900925996],"MAIN_WINDOW_CREATING":[215,934958487]},"identifier":"slack_preload_metadata_arguments"}
+dhonda    2379  0.0  0.0  51072  5564 ?        Ss   Oct29   0:03 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dhonda    2430  0.0  0.0  11304   316 ?        Ss   Oct29   0:00 /usr/bin/ssh-agent /usr/bin/im-launch cinnamon-session-cinnamon
+dhonda    2442  0.0  0.0 349400  6520 ?        Ssl  Oct29   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+dhonda    2447  0.0  0.0  50320  4696 ?        S    Oct29   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+dhonda    2449  0.0  0.0 220776  6904 ?        Sl   Oct29   0:02 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+dhonda    2460  0.0  0.1 840232 23540 ?        Sl   Oct29   0:01 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-sound
+dhonda    2461  0.0  0.1 396728 19980 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-keyboard
+dhonda    2462  0.0  0.1 396740 19808 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-a11y-settings
+dhonda    2463  0.0  0.2 504304 25800 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-power
+dhonda    2466  0.0  0.1 320592 19816 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-clipboard
+dhonda    2468  0.0  0.1 398368 21768 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xsettings
+dhonda    2478  0.0  0.1 574576 21492 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-color
+dhonda    2480  0.0  0.1 396732 19872 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-mouse
+dhonda    2483  0.0  0.0 284860  7248 ?        Ssl  Oct29   0:00 /usr/lib/gvfs/gvfsd
+dhonda    2484  0.0  0.1 320588 19724 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-cursor
+dhonda    2489  0.0  0.0 416116  5396 ?        Sl   Oct29   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+dhonda    2497  0.0  0.1 447132 22564 ?        Sl   Oct29   0:02 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-keyboard
+dhonda    2503  0.0  0.1 483516 20664 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-xrandr
+dhonda    2504  0.0  0.1 853100 22176 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-media-keys
+dhonda    2509  0.0  0.1 396788 20320 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-housekeeping
+dhonda    2516  0.0  0.1 379940 22132 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-wacom
+dhonda    2522  0.0  0.1 394340 19684 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-screensaver-proxy
+dhonda    2528  0.0  0.2 546176 36312 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-background
+dhonda    2535  0.0  0.1 474896 20788 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-automount
+dhonda    2539  0.0  0.1 543764 19420 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-orientation
+dhonda    2543  0.0  0.1 444816 23304 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-print-notifications
+dhonda    2552  0.0  0.0 188032  5376 ?        Sl   Oct29   0:00 /usr/lib/dconf/dconf-service
+dhonda    2561  0.0  0.1 2211736 13476 ?       S<l  Oct29   1:26 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     2562  0.0  0.0 183504  2932 ?        SNsl Oct29   0:00 /usr/lib/rtkit/rtkit-daemon
+root      2571  0.0  0.0      0     0 ?        S<   Oct29   0:00 [krfcommd]
+dhonda    2580  0.0  0.0 373068  8220 ?        Ssl  Oct29   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+dhonda    2589  0.0  0.2 182924 28384 ?        S    Oct29   0:00 /usr/bin/python3 /usr/bin/cinnamon-launcher
+dhonda    2592  0.0  0.0 501660 12448 ?        Sl   Oct29   0:00 /usr/lib/x86_64-linux-gnu/cinnamon-settings-daemon/csd-printer
+dhonda    2595  0.0  0.0 268764  5928 ?        Ssl  Oct29   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+dhonda    2599  0.0  0.0 371708  7632 ?        Ssl  Oct29   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+dhonda    2607  0.0  0.0 266996  5948 ?        Ssl  Oct29   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+dhonda    2611  0.0  0.2 771392 30608 ?        Sl   Oct29   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+dhonda    2613  5.2  1.6 2987016 211948 ?      Sl   Oct29  76:29 cinnamon --replace
+dhonda    2620  0.0  0.0 296332  7584 ?        Sl   Oct29   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+dhonda    2625  0.0  0.0 281688  6616 ?        Ssl  Oct29   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+dhonda    2645  0.0  0.2 433472 31132 ?        Sl   Oct29   0:00 blueberry-obex-agent
+dhonda    2646  0.0  0.2 463132 32076 ?        Sl   Oct29   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+dhonda    2648  0.0  0.4 1160012 61700 ?       Sl   Oct29   0:08 nemo-desktop
+dhonda    2649  0.0  0.2 720772 34724 ?        Sl   Oct29   0:00 nm-applet
+dhonda    2654  0.0  0.2 408712 28892 ?        Sl   Oct29   0:00 /usr/bin/python3 /usr/bin/cinnamon-killer-daemon
+dhonda    2666  0.1  0.1 524288 21288 ?        Sl   Oct29   2:33 /usr/bin/prlcc
+dhonda    2675  0.0  0.0 241568  6736 ?        Sl   Oct29   0:16 /usr/bin/prldnd
+dhonda    2676  0.0  0.0 119488  3836 ?        Sl   Oct29   0:00 /usr/bin/prlcp
+dhonda    2677  0.0  0.1 413940 17636 ?        Sl   Oct29   0:28 /usr/bin/prlsga
+dhonda    2678  0.0  0.0  22436  3840 ?        S    Oct29   0:09 /usr/bin/prlshprof
+dhonda    2755  0.0  0.0  82732  6820 ?        Ss   Oct29   0:00 /usr/lib/bluetooth/obexd
+dhonda    2781  0.0  0.0 361140  7660 ?        Sl   Oct29   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+dhonda    2791  0.0  0.0 197508  5864 ?        Ssl  Oct29   0:00 /usr/lib/gvfs/gvfsd-metadata
+dhonda    2846  0.0  0.0  28972  8324 ?        S    Oct29   0:00 /usr/bin/python3 /usr/bin/blueberry-tray
+dhonda    2847  0.0  0.4 711832 57432 ?        Sl   Oct29   0:33 cinnamon-screensaver
+dhonda    2848  0.0  0.0   4628   800 ?        S    Oct29   0:00 sh -c /usr/lib/blueberry/blueberry-tray.py
+dhonda    2849  0.0  0.3 643836 43824 ?        Sl   Oct29   0:00 python2 /usr/lib/blueberry/blueberry-tray.py
+dhonda    2856  0.0  0.0  26280  7808 ?        S    Oct29   0:00 python2 /usr/lib/blueberry/safechild /usr/sbin/rfkill event
+dhonda    2862  0.0  0.0   9744  1000 ?        S    Oct29   0:00 /usr/sbin/rfkill event
+dhonda    2865  0.0  1.3 2488484 177916 ?      Sl   Oct29   1:08 ./insync start
+uuidd     2882  0.0  0.0  28136  1372 ?        Ss   Oct29   0:00 /usr/sbin/uuidd --socket-activation
+dhonda    2885  0.0  0.3 363620 44328 ?        S    Oct29   0:00 /usr/lib/insync/PySide2/Qt/libexec/QtWebEngineProcess --type=zygote --webengine-schemes=qrc:sLV --lang=en-US
+dhonda    2887  0.0  0.0 363620  9244 ?        S    Oct29   0:00 /usr/lib/insync/PySide2/Qt/libexec/QtWebEngineProcess --type=zygote --webengine-schemes=qrc:sLV --lang=en-US
+dhonda    2902  0.0  0.7 1293644 95532 ?       Sl   Oct29   0:02 /usr/lib/insync/PySide2/Qt/libexec/QtWebEngineProcess --type=renderer --disable-gpu-memory-buffer-video-frames --enable-threaded-compositing --enable-features=AllowContentInitiatedDataUrlNavigations --disable-features=MojoVideoCapture,SurfaceSynchronization,UseModernMediaControls,UseVideoCaptureApiForDevToolsSnapshots --disable-gpu-compositing --service-pipe-token=10863787965429115391 --lang=en-US --webengine-schemes=qrc:sLV --num-raster-threads=1 --service-request-channel-token=10863787965429115391 --renderer-client-id=2 --shared-files
+dhonda    2956  0.3  0.6 638344 86264 ?        Sl   09:55   0:01 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --disable-databases --service-pipe-token=9584905788686814359 --lang=en-US --app-path=/usr/share/code/resources/app --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.39.2 Chrome/69.0.3497.128 Electron/4.2.10 Safari/537.36 --node-integration=false --webview-tag=true --no-sandbox --preload=/usr/share/code/resources/app/out/vs/workbench/contrib/webview/electron-browser/pre/electron-index.js --context-isolation --background-color=#fff --guest-instance-id=5 --enable-blink-features --disable-blink-features --num-raster-threads=1 --service-request-channel-token=9584905788686814359 --renderer-client-id=12 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    2976  0.0  0.5 820628 64044 ?        Sl   Oct29   0:01 mintUpdate
+dhonda    3074  0.0  0.2 247648 32368 ?        Sl   Oct29   0:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+dhonda    3120  0.2  1.2 1165176 161644 ?      Sl   Oct29   3:14 /usr/lib/slack/slack
+dhonda    3124  0.0  0.3 366700 38728 ?        S    Oct29   0:00 /usr/lib/slack/slack --type=zygote
+dhonda    3126  0.0  0.0 366700  6504 ?        S    Oct29   0:00 /usr/lib/slack/slack --type=zygote
+dhonda    3155  0.1  0.6 494692 76744 ?        Sl   Oct29   2:55 /usr/lib/slack/slack --type=gpu-process --field-trial-handle=15891770864833459728,13431226101428467847,131072 --disable-features=LayoutNG,SpareRendererForSitePerProcess --gpu-preferences=IAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --service-request-channel-token=12225691342594314701
+dhonda    3161  0.0  0.1 386188 15156 ?        S    Oct29   0:00 /usr/lib/slack/slack --type=broker
+dhonda    3252  0.0  0.2 595928 35864 ?        Ssl  Oct29   0:03 /usr/lib/gnome-terminal/gnome-terminal-server
+dhonda    3259  0.0  0.0  27248  9884 pts/0    Ss   Oct29   0:00 bash
+dhonda    3471  0.0  0.0  52296  7016 pts/0    S    Oct29   0:15 ssh -N -L 5435:mls-import-dev.c9vrbyulyjjf.us-east-1.rds.amazonaws.com:5432 -i /home/dhonda/.ssh/sandbox-bastion.pem ec2-user@54.165.161.247
+dhonda    3472  0.0  0.0  52296  6920 pts/0    S    Oct29   0:00 ssh -N -L 5437:mls-import-7-19-19.c9vrbyulyjjf.us-east-1.rds.amazonaws.com:5432 -i /home/dhonda/.ssh/sandbox-bastion.pem ec2-user@54.165.161.247
+dhonda    3475  0.0  0.0  11304  1452 ?        S    Oct29   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+dhonda    3495  0.6  0.8 621688 111956 pts/0   S    Oct29  10:07 python /home/dhonda/anaconda3/envs/py36/lib/python3.6/site-packages/pgadmin4/pgAdmin4.py
+dhonda    3526  0.3  1.0 1188468 132520 ?      Ssl  Oct29   5:02 /usr/share/code/code .
+dhonda    3528  0.0  0.2 368908 37792 ?        S    Oct29   0:00 /usr/share/code/code --type=zygote --no-sandbox
+dhonda    3557  0.7  0.6 467128 80116 ?        Sl   Oct29  11:02 /usr/share/code/code --type=gpu-process --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --disable-color-correct-rendering --no-sandbox --gpu-preferences=KAAAAAAAAACAAABAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAA AAAAAA --service-request-channel-token=7355285842762857647
+dhonda    3569  1.2  4.4 1794460 566404 ?      Sl   Oct29  18:42 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --service-pipe-token=14399709735558775189 --lang=en-US --app-path=/usr/share/code/resources/app --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.39.2 Chrome/69.0.3497.128 Electron/4.2.10 Safari/537.36 --node-integration=true --webview-tag=true --no-sandbox --background-color=#1e1e1e --num-raster-threads=1 --service-request-channel-token=14399709735558775189 --renderer-client-id=4 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    3593  0.0  1.2 800956 157060 ?       Sl   Oct29   1:17 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+dhonda    3602  0.0  0.0  25832  8300 pts/1    Ss+  Oct29   0:00 /bin/bash
+root      3799  0.0  0.0      0     0 ?        I    09:58   0:00 [kworker/u64:0]
+root      3801  0.0  0.0      0     0 ?        I    09:58   0:00 [kworker/1:2]
+dhonda    3814  0.0  0.8 741736 106268 ?       Sl   Oct29   0:13 /usr/share/code/code --type=renderer --disable-color-correct-rendering --no-sandbox --enable-features=SharedArrayBuffer --disable-features=SpareRendererForSitePerProcess --service-pipe-token=766487752963760205 --lang=en-US --app-path=/usr/share/code/resources/app --user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.39.2 Chrome/69.0.3497.128 Electron/4.2.10 Safari/537.36 --node-integration=true --webview-tag=true --no-sandbox --background-color=#1e1e1e --disable-blink-features=Auxclick --num-raster-threads=1 --service-request-channel-token=766487752963760205 --renderer-client-id=6 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    3845  0.0  1.0 710680 128860 ?       Sl   Oct29   0:16 /usr/share/code/code /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --syntaxOnly --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript1000/b94ab4194a579d3eaa83/tscancellation-b6e7c6108ebb93573080.tmp* --globalPlugins typescript-tslint-plugin --pluginProbeLocations /home/dhonda/.vscode/extensions/ms-vscode.vscode-typescript-tslint-plugin-1.2.2 --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation
+dhonda    3846  0.9 10.0 2222620 1281628 ?     Sl   Oct29  14:01 /usr/share/code/code /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript1000/b94ab4194a579d3eaa83/tscancellation-734780135a5e10bc534f.tmp* --globalPlugins typescript-tslint-plugin --pluginProbeLocations /home/dhonda/.vscode/extensions/ms-vscode.vscode-typescript-tslint-plugin-1.2.2 --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation
+dhonda    3877  0.0  0.8 693272 107532 ?       Sl   Oct29   0:48 /usr/share/code/code /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/dhonda/.cache/typescript/3.6 --enableTelemetry --typesMapLocation /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation
+dhonda    3912  0.0  0.0 352528 10112 ?        Sl   Oct29   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.16 /org/gtk/gvfs/exec_spaw/1
+dhonda    3917  0.8  2.2 1069816 290100 ?      SLl  Oct29  12:20 /opt/google/chrome/chrome http://127.0.0.1:5050
+dhonda    3924  0.0  0.0   7608   796 ?        S    Oct29   0:00 cat
+dhonda    3925  0.0  0.0   7608   772 ?        S    Oct29   0:00 cat
+dhonda    3929  0.0  0.4 444520 57984 ?        S    Oct29   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87,
+dhonda    3930  0.0  0.0  35520  4760 ?        S    Oct29   0:00 /opt/google/chrome/nacl_helper
+dhonda    3933  0.0  0.1 444520 15540 ?        S    Oct29   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87,
+dhonda    3955  0.2  1.8 742136 236960 ?       Sl   Oct29   3:51 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=11037689559314584847,6414354196527826908,131072 --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=12696947410696627725
+dhonda    3960  0.3  0.9 588964 120640 ?       SLl  Oct29   4:40 /opt/google/chrome/chrome --type=utility --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --service-sandbox-type=network --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --service-request-channel-token=7867573091424715033 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    4009  0.0  0.1 422316 17956 ?        S    Oct29   0:00 /opt/google/chrome/chrome --type=broker
+dhonda    4038  1.1  1.6 853504 209064 ?       Sl   Oct29  16:27 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=17095622969273445569 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    4082  0.0  0.7 702588 90516 ?        Sl   Oct29   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --extension-process --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=16489186350984514802 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    4115  0.0  1.2 822664 153828 ?       Sl   Oct29   0:20 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --extension-process --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=9423600637710855488 --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    4191  0.0  0.5 581664 69896 ?        Sl   Oct29   0:04 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/jsonServerMain --node-ipc --clientProcessId=3593
+dhonda    4339  0.0  1.1 1318368 149716 ?      Sl   Oct29   1:17 nemo
+dhonda    4405  0.0  0.0  39664  3604 pts/0    R+   10:00   0:00 ps -aux
+dhonda    4635  0.0  0.4 567808 59496 ?        Sl   Oct29   0:02 /usr/share/code/code /home/dhonda/.vscode/extensions/dbaeumer.vscode-eslint-1.9.1/server/out/eslintServer.js --node-ipc --clientProcessId=3593
+dhonda    5020  0.0  0.0  25832  8212 pts/2    Ss+  Oct29   0:00 /bin/bash
+dhonda    5948  0.0  1.5 1064720 198272 ?      Sl   Oct29   0:15 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=6818758019136216280 --renderer-client-id=16 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    6003  0.0  1.0 746632 133060 ?       Sl   Oct29   0:13 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=15588130107856946755 --renderer-client-id=17 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    6019  1.7  1.7 895344 223476 ?       Sl   Oct29  25:14 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=1890478672775982684 --renderer-client-id=18 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda    6060  0.0  1.0 1462204 130468 ?      Sl   Oct29   0:25 /opt/sublime_text/sublime_text /home/dhonda/Desktop/allmaar-listing_active-1572367409209.json
+dhonda    6074  0.0  0.2 273388 28508 ?        Sl   Oct29   0:01 /opt/sublime_text/plugin_host 6060 --auto-shell-env
+dhonda    6146  0.0  0.0 363380  7372 ?        Sl   Oct29   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.16 /org/gtk/gvfs/exec_spaw/2
+dhonda    6176  0.0  0.0 374180  7336 ?        Sl   Oct29   0:06 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.16 /org/gtk/gvfs/exec_spaw/6
+dhonda    6443  0.0  0.0 145432  6556 ?        Sl   Oct29   0:00 /usr/lib/libreoffice/program/oosplash --calc file:///home/dhonda/Downloads/allmaar_property_c_raw.xlsx
+dhonda    6461  0.4  2.7 1713688 348736 ?      Sl   Oct29   6:24 /usr/lib/libreoffice/program/soffice.bin --calc file:///home/dhonda/Downloads/allmaar_property_c_raw.xlsx --splash-pipe=5
+root      6739  0.0  0.0  45700  2472 ?        S    Oct29   0:00 dbus-launch --autolaunch=ef635a010d284bc38d762d2b9f0e65ac --binary-syntax --close-stderr
+root      6740  0.0  0.0  49796  2728 ?        Ss   Oct29   0:00 /usr/bin/dbus-daemon --syslog-only --fork --print-pid 5 --print-address 7 --session
+root      7607  0.0  0.1 366584 13960 ?        Ssl  Oct29   0:00 /usr/lib/packagekit/packagekitd
+dhonda    9303  0.0  0.8 710808 105548 ?       Sl   Oct29   0:02 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=17128285177887728703 --renderer-client-id=294 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   10480  0.1  1.3 756944 169252 ?       Sl   Oct29   2:05 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+dhonda   15464  0.5  1.1 786536 147928 ?       Sl   08:40   0:26 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=5788691734149909857 --renderer-client-id=312 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   16510  0.0  0.0      0     0 ?        Z    Oct29   0:00 [xdg-open] <defunct>
+dhonda   16609  0.0  0.8 718260 111440 ?       Sl   Oct29   0:03 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=16686583579225688802 --renderer-client-id=24 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   16625  0.0  2.6 1205768 341856 ?      Sl   Oct29   0:52 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --extension-process --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=4557747852178568922 --renderer-client-id=25 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   18585  0.1  1.6 832976 208992 ?       Sl   Oct29   1:06 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=10157267246847045167 --renderer-client-id=251 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   19568  0.0  0.5 600108 67952 ?        Sl   08:56   0:00 /usr/share/code/code /usr/share/code/resources/app/out/bootstrap-fork --type=searchService
+dhonda   21969  0.0  0.4 672500 55656 ?        Sl   09:06   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=5745655742231606666 --renderer-client-id=323 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   21979  0.6  2.2 1102548 284128 ?      Sl   09:06   0:21 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --extension-process --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=17495773581174260751 --renderer-client-id=324 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     22192  0.0  0.0 101876  9648 ?        Ss   00:09   0:21 /usr/sbin/cupsd -l
+root     22193  0.0  0.0 303672 10932 ?        Ssl  00:09   0:03 /usr/sbin/cups-browsed
+dhonda   24137  0.0  0.9 727460 122104 ?       Sl   Oct29   0:03 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=12186198909840730879 --renderer-client-id=254 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     27809  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/u64:3]
+root     27811  0.0  0.0      0     0 ?        I    09:30   0:00 [kworker/1:0]
+dhonda   28380  0.2  1.5 878144 203204 ?       Sl   Oct29   2:07 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=2450594982166173373 --renderer-client-id=261 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   28404  0.0  0.7 708900 100460 ?       Sl   Oct29   0:28 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=6100348421673535476 --renderer-client-id=262 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   28440  0.0  0.8 723508 104312 ?       Sl   Oct29   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=1448762658392620493 --renderer-client-id=264 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   28483  0.0  0.8 711336 106364 ?       Sl   Oct29   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=3747499072848345370 --renderer-client-id=265 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   28496  0.0  0.7 701900 97072 ?        Sl   Oct29   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=15172065512895974317 --renderer-client-id=266 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   28506  0.0  0.4 761124 54984 ?        Sl   Oct29   0:00 /opt/google/chrome/chrome --type=utility --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --service-sandbox-type=audio --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --service-request-channel-token=7229634006432409158 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   28521  0.0  0.8 753388 110724 ?       Sl   Oct29   0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=381108129293796690 --renderer-client-id=268 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+dhonda   28530  0.0  0.9 759316 119888 ?       Sl   Oct29   0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=12190501400669655669 --renderer-client-id=269 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     29271  0.0  0.0      0     0 ?        I    09:36   0:00 [kworker/u64:1]
+root     30792  0.0  0.0      0     0 ?        I    09:42   0:00 [kworker/0:1]
+dhonda   31280  0.1  2.4 990020 311796 ?       Sl   Oct29   1:47 /opt/google/chrome/chrome --type=renderer --field-trial-handle=11037689559314584847,6414354196527826908,131072 --lang=en-US --enable-crash-reporter=1a530e95-e2b6-4062-8505-61154ff98c87, --extension-process --enable-auto-reload --num-raster-threads=1 --service-request-channel-token=604895742996351050 --renderer-client-id=132 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
